@@ -81,9 +81,6 @@ class MyGUI:
         if not agree_terms:
             tkinter.messagebox.showerror("Error", "Please agree to terms and conditions.")
             return
-        if not receive_newsletter:
-            tkinter.messagebox.showerror("Error", "Please agree to receive the newsletter.")
-            return
         if password != retype_password:
             tkinter.messagebox.showerror("Error", "Passwords do not match.")
             return
